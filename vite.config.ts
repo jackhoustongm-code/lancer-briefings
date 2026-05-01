@@ -13,6 +13,9 @@ export default defineConfig({
       algorithm: "brotliCompress",
     }),
   ],
+  server: {
+    allowedHosts: true,
+  },
   base: "./",
   resolve: {
     alias: {
