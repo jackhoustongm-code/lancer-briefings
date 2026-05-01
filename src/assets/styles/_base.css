@@ -11,7 +11,7 @@
 	/* Primary Colors */
 	--primary-color: #852b34;
 	--secondary-color: #ffffff;
-	--highlight-hover: rgba(128, 41, 50, 0.3);
+	--highlight-hover: rgba(255, 255, 255, 0.3);
 	--highlight-active: rgba(255, 255, 255, 0.1);
 	/* Primary Text */
 	--text-headers: rgba(0, 0, 0, 1);
@@ -25,8 +25,8 @@
 	--mission-partial: rgba(88, 34, 102, 1);
 	--mission-success: #226662;
 	--mission-failure: rgba(176, 45, 45, 1);
-	--primary-logo: #0C3C40;
-	--secondary-logo: #146464;
+	--primary-logo: #000000;
+	--secondary-logo: #000000;
 	/* Pilot Roster Text */
 	--text-pilot-header: rgba(255, 255, 255, 0.67);
 	--text-pilot-value: rgba(255, 255, 255, 0.87);
