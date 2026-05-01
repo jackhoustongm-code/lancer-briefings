@@ -11,7 +11,7 @@
 	/* Primary Colors */
 	--primary-color: #852b34;
 	--secondary-color: #ffffff;
-	--highlight-hover: rgba(255, 255, 255, 0.3);
+	--highlight-hover: rgba(128, 41, 50, 0.3);
 	--highlight-active: rgba(255, 255, 255, 0.1);
 	/* Primary Text */
 	--text-headers: rgba(0, 0, 0, 1);
