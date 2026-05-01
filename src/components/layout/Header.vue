@@ -31,7 +31,7 @@
 				</div>
 				<div id="system-gate-ring" class="location-row">
 					<div id="ring">
-						<h4>      Line</h4>
+						<h4>            Line</h4>
 						<span class="subtitle">{{ header.ring }}</span>
 					</div>
 					<div id="gate">
