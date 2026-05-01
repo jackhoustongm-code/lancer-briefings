@@ -248,7 +248,7 @@ div.location-info {
 	border-left: 1px solid var(--location-separator);
 }
 
-.location-row #ring {
+.location-row #line {
 	border-left: 1px solid var(--highlight-hover);
 	padding-right: 0px;
 }
