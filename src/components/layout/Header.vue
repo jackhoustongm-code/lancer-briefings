@@ -4,8 +4,8 @@
 			<img class="logo" src="/faction-logos/union.svg" />
 			<div class="title-container">
 				<div id="title-first-line" class="title-row">
-					<span id="title-header">{{ header.headerTitle }}</span>
-					<span id="title-subheader">{{ header.headerSubtitle }} / </span>
+					<span id="title-header">{{ header.headerTitle }} / </span>
+					<span id="title-subheader">{{ header.headerSubtitle }}</span>
 				</div>
 				<div class="title-row">
 					<span id="subtitle-header">{{ header.subheaderTitle }}</span>
