@@ -138,7 +138,7 @@ import lancerData from '@massif/lancer-data'
 import ktbData from 'lancer-ktb-data'
 import nrfawData from 'lancer-nrfaw-data'
 import longrimData from 'lancer-longrim-data'
-
+import osrData from '@/assets/LCPs/osr-data-1.2.0'
 import wallflowerData from '@/assets/LCPs/wallflower-data-2.0.5'
 /*Append the datasets within computed if your LCP has new items.
 EX:
