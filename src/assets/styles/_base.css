@@ -179,10 +179,10 @@ header {
 	display: flex;
 	flex-direction: row;
 	position: absolute;
-	left: 25px;
+	right: 25px;
 }
 
-header video {
+header video {//
 	width: 86px;
 	height: 86px;
 	align-self: center;
