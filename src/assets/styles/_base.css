@@ -179,7 +179,7 @@ header {
 	display: flex;
 	flex-direction: row;
 	position: absolute;
-	right: 25px;
+	left: 25px;
 }
 
 header video {
@@ -192,7 +192,7 @@ div .location-info {
 	padding: 10px;
 	margin-left: 20px;
 	display: flex;
-	align-items: flex-center;
+	align-items: flex-right;
 	justify-content: space-between;
 	flex-direction: column;
 	color: var(--text-location);
