@@ -12,7 +12,7 @@
         {{ pilot.id }} </div>
       <div class="flex-container-rows">
         <div class="row add-padding">
-          {{ reverse(this.pilot.name) }}:{{ pilot.id }}//NDL-C-BLIND-REACH
+          {{ reverse(this.pilot.name) }}:{{ pilot.id }}//NDL-C-WINTER-SCAR
         </div>
         <div class="row flex-container-cols add-padding">
           <div class="col grow-max flex-container-rows" style="padding-top:5px">
