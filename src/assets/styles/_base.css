@@ -10,9 +10,9 @@
 :root {
 	/* Primary Colors */
 	--primary-color: #852b34;
-	--secondary-color: #ffffff;
+	--secondary-color: #16ffffff;
 	--highlight-hover: rgba(0, 0, 0, 0.3);
-	--highlight-active: rgba(0, 0, 0, 0.1);
+	--highlight-active: rgba(0, 0, 0, 0.15);
 	/* Primary Text */
 	--text-headers: rgba(0, 0, 0, 1);
 	--text-location: rgba(0, 0, 0, 0.87);
