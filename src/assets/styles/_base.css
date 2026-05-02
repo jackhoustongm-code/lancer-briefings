@@ -249,7 +249,7 @@ div.location-info {
 
 .location-row #ring {
 	border-left: 1px solid var(--highlight-hover);
-	padding-right: 0px;
+	padding-left: 10px;
 }
 
 .page-wrapper {
