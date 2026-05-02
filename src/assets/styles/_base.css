@@ -115,7 +115,6 @@ header {
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 0.12em;
-	padding-left: 0.32em;
 }
 
 .title #subtitle-header {
@@ -136,7 +135,6 @@ header {
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
-	padding-left: 0.32em;
 }
 
 .logo {
