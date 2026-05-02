@@ -177,7 +177,7 @@ header {
 	display: flex;
 	flex-direction: row;
 	position: absolute;
-	right: 25px;
+	right: 0px;
 }
 
 header video {
@@ -249,7 +249,7 @@ div.location-info {
 
 .location-row #ring {
 	border-left: 1px solid var(--highlight-hover);
-	padding-left: 10px;
+	padding-right: 0px;
 }
 
 .page-wrapper {
