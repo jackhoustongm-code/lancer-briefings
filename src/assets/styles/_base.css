@@ -177,7 +177,7 @@ header {
 	display: flex;
 	flex-direction: row;
 	position: absolute;
-	right: 0px;
+	right: 25px;
 }
 
 header video {
