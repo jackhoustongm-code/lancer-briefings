@@ -12,7 +12,6 @@
 					<span id="subtitle-subheader">{{ header.subheaderSubtitle }}</span>
 				</div>
 			</div>
-		</div>
 		<div class="rhombus"></div>
 		<div class="planet-location-container">
 			<video autoplay muted loop width="90px" height="90px">
