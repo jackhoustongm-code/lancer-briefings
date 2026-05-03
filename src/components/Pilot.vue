@@ -140,6 +140,8 @@ import nrfawData from 'lancer-nrfaw-data'
 import longrimData from 'lancer-longrim-data'
 
 import osrData from '@/assets/LCPs/osr-data-1.2.0'
+
+import owsData from '@/assets/LCPs/ows-data-1.0.0'
 	
 import wallflowerData from '@/assets/LCPs/wallflower-data-2.0.5'
 /*Append the datasets within computed if your LCP has new items.
@@ -190,10 +192,10 @@ export default {
       return [...lancerData.pilot_gear]
     },
     mechWeapons() {
-      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...osrData.weapons]
+      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...osrData.weapons, ...owsData.weapons]
     },
     mechSystems() {
-      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...osrData.systems]
+      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...osrData.systems, ...owsData.systems]
     },
     talents() {
       return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents, ...osrData.talents]
@@ -205,7 +207,7 @@ export default {
       return [...ktbData.bonds]
     },
     frames() {
-      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames]
+      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames, ...owsData.frames]
     },
     mechManufacturerIcon() {
       if (this.activeMech.manufacturer)
