@@ -5,14 +5,14 @@
         <div class="heading h1">{{ pilot.callsign }}</div>
         <div class="heading h2">({{ pilot.name }}) </div>
       </div>
-      <div class="col"><img src="/faction-logos/union.svg"></div>
+      <div class="col"><img src="/faction-logos/msmc.svg"></div>
     </div>
     <div class="body">
       <div class="add-padding"> Union Administrative RM-4 Pilot Identification Protocol (IDENT) Record
         {{ pilot.id }} </div>
       <div class="flex-container-rows">
         <div class="row add-padding">
-          {{ reverse(this.pilot.name) }}:{{ pilot.id }}//NDL-C-WINTER-SCAR
+          {{ reverse(this.pilot.name) }}:{{ pilot.id }}//NDL-C-BLIND-REACH
         </div>
         <div class="row flex-container-cols add-padding">
           <div class="col grow-max flex-container-rows" style="padding-top:5px">
@@ -140,8 +140,7 @@ import nrfawData from 'lancer-nrfaw-data'
 import longrimData from 'lancer-longrim-data'
 
 import osrData from '@/assets/LCPs/osr-data-1.2.0'
-import owsData from '@/assets/LCPs/ows-data-1.0.0'	
-	
+
 import wallflowerData from '@/assets/LCPs/wallflower-data-2.0.5'
 /*Append the datasets within computed if your LCP has new items.
 EX:
@@ -191,10 +190,10 @@ export default {
       return [...lancerData.pilot_gear]
     },
     mechWeapons() {
-      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...osrData.weapons, ...owsData.weapons]
+      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...osrData.weapons]
     },
     mechSystems() {
-      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...osrData.systems, ...owsData.systems]
+      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...osrData.systems]
     },
     talents() {
       return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents, ...osrData.talents]
@@ -206,7 +205,7 @@ export default {
       return [...ktbData.bonds]
     },
     frames() {
-      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames, ...owsData.frames]
+      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames]
     },
     mechManufacturerIcon() {
       if (this.activeMech.manufacturer)
