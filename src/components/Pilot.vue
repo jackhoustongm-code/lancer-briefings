@@ -139,7 +139,7 @@ import ktbData from 'lancer-ktb-data'
 import nrfawData from 'lancer-nrfaw-data'
 import longrimData from 'lancer-longrim-data'
 
-import winterscarData from '@/assets/LCPs/winterscar-data-1.0.0'	
+import winterscarData from '@/assets/LCPs/winterscar-data-1.0.1'	
 import osrData from '@/assets/LCPs/osr-data-1.2.0'
 	
 import wallflowerData from '@/assets/LCPs/wallflower-data-2.0.5'
