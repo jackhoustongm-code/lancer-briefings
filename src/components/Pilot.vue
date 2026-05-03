@@ -5,14 +5,14 @@
         <div class="heading h1">{{ pilot.callsign }}</div>
         <div class="heading h2">({{ pilot.name }}) </div>
       </div>
-      <div class="col"><img src="/faction-logos/msmc.svg"></div>
+      <div class="col"><img src="/faction-logos/union.svg"></div>
     </div>
     <div class="body">
       <div class="add-padding"> Union Administrative RM-4 Pilot Identification Protocol (IDENT) Record
         {{ pilot.id }} </div>
       <div class="flex-container-rows">
         <div class="row add-padding">
-          {{ reverse(this.pilot.name) }}:{{ pilot.id }}//NDL-C-BLIND-REACH
+          {{ reverse(this.pilot.name) }}:{{ pilot.id }}//NDL-C-WINTER-SCAR
         </div>
         <div class="row flex-container-cols add-padding">
           <div class="col grow-max flex-container-rows" style="padding-top:5px">
