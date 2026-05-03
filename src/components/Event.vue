@@ -18,7 +18,7 @@ import EventModal from "@/components/modals/EventModal.vue";
 import removeMd from "remove-markdown";
 
 export default {
-	name: "Briefs",
+	name: "Events",
 	components: {
 		EventModal,
 	},
