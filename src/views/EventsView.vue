@@ -2,7 +2,7 @@
 	<div id="eventsView" :class="{ animate: animateView }" :style="{ 'animation-delay': animationDelay }" class="content-container">
 		<section id="events" :class="{ animate: animate }" class="section-container">
 			<div class="section-header clipped-medium-backward">
-				<img src="/icons/conversation.svg" />
+				<img src="/icons/npc.svg" />
 				<h1>BRIEFINGS</h1>
 			</div>
 			<div class="section-content-container">
@@ -20,7 +20,7 @@
 			<div style="height: 52px; overflow: hidden">
 				<div class="section-header clipped-medium-backward-events-logs">
 					<img src="/icons/conversation.svg" />
-					<h1>EVENT LOG</h1>
+					<h1>BRIEFING LOG</h1>
 				</div>
 				<div class="rhombus-back">&nbsp;</div>
 			</div>
